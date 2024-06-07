@@ -19,7 +19,9 @@
 
 <h1> Bem vindo ao meu portifolio </h1>
 
-<h2>nome do aluno: <h1> leonel henrrique</h1></h2>
+<h2>nome do aluno: <h2> leonel henrrique</h2></h2>
+
+
 
 <h2>data: 07/06/24 </h2>
  
@@ -31,11 +33,10 @@ o NetBeans e github.</h1>
 <a href="URL"> https://github.com/Leonel061/game-da-adivinhacao1.git?authuser=0 </a>
 <a href="URL">https://github.com/Leonel061/repositorio-de-exercicios-de-logica-de-programacao-em-java/blob/8b1576b57a47a5e58cadf8e78b8e9d6d9d2f00bf/exerc%C3%ADcios%20de%20logica%20de%20programa%C3%A7%C3%A3o?authuser=0 </a>
  <h1> Acima esta os 2 link de trabalhos feito no NetBeans e Github </h1>
-
-
-
-
-<p> </p>
+    
+<h1>contatos:</h1>
+<h1>numero:+51 99024342</h1>
+<h1>Gmail: leonel.Henrrique@gmail.com</h1>
 
 </body>
 </head>

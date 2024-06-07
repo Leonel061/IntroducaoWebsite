@@ -1,17 +1,28 @@
-<html>
-<head>  
-   
-pt <BR></BR>
+<html lang="pt-BR">
 
-   <h3> Meu portfolio </h3>
+<head>
+
+    <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+
+    <title> Meu portifolio</title>
+</head>
+
+<body>
+
+<h1> Bem vindo ao meu portifolio </h1>
+
 <h2>nome do aluno: <h1> leonel henrrique</h1></h2>
-<h2>data: 03/06/24 </h2>
- 
 
-<h2>meu portfolio:</h2>
-<h1>me chamo Leonel, tenho 15 anos atualmente e gosto de programacao. <br> 
- </h1>
-<h1> Estou no primeiro ano do meu curso mais ja sei bastante, <br>
+<h2>data: 07/06/24 </h2>
+ 
 o meu principal conhecimento é sobre criacao de codigo usando <br>
 o NetBeans e github.</h1>
 
@@ -21,5 +32,12 @@ o NetBeans e github.</h1>
 <a href="URL">https://github.com/Leonel061/repositorio-de-exercicios-de-logica-de-programacao-em-java/blob/8b1576b57a47a5e58cadf8e78b8e9d6d9d2f00bf/exerc%C3%ADcios%20de%20logica%20de%20programa%C3%A7%C3%A3o?authuser=0 </a>
  <h1> Acima esta os 2 link de trabalhos feito no NetBeans e Github </h1>
 
+
+
+
+<p> </p>
+
+</body>
+</head>
+
 </html>
-</head> 

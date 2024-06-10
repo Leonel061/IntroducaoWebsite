@@ -4,28 +4,45 @@
 
     <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale= 1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link 
 
-<link rel="stylesheet" href="style.css">
+href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" <link rel="stylesheet" href="style.css">
 
 
-    <title> Meu portifolio</title>
+    <title> Meu portfólio</title>
 </head>
 
 <body>
 
-<h1> Bem vindo ao meu portifolio </h1>
+<h1> Bem vindo ao meu portfólio </h1>
 
 <h2>nome do aluno: <h2> leonel henrrique</h2></h2>
-
-
-
-<h2>data: 07/06/24 </h2>
  
-o meu principal conhecimento é sobre criacao de codigo usando <br>
+<img src = "link da foto minha" 
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+
+<h2>data de iniciação: 07/06/24 </h2>
+ 
+o meu principal conhecimento é sobre criação de código usando <br>
 o NetBeans e github.</h1>
 
 <h2>meus principais trabalhos feitos usando NetBeans foi esses:</h2>
@@ -35,10 +52,11 @@ o NetBeans e github.</h1>
  <h1> Acima esta os 2 link de trabalhos feito no NetBeans e Github </h1>
     
 <h1>contatos:</h1>
-<h1>numero:+51 99024342</h1>
+<h1>número: +51 99024342</h1>
 <h1>Gmail: leonel.Henrrique@gmail.com</h1>
 
 </body>
 </head>
 
 </html>
+

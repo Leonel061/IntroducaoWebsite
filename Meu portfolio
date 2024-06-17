@@ -1,62 +1,115 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
-    <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-
-  <meta charset="UTF-8" <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-
-href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" <link rel="stylesheet" href="style.css">
-
-
-    <title> Meu portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1> Bem vindo ao meu portfólio </h1>
-
-<h2>nome do aluno: <h2> leonel henrrique</h2></h2>
- 
-<img src = "link da foto minha" 
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  color: green;
-  text-align: center;
-}
-
-p {
-  margin: 10px;
-  padding: 20px;
-  background-color: lightgray;
-}
+    <section id="sobre">
+        <h2>Sobre min</h2>
+        <p>Meu nome é Leonel e tenho 15 anos, esse é o meu primeiro porfolio. <br> 
+        Atualmente estou no primeiro ano do curso de programacao.</p>
 
 
-<h2>data de iniciação: 07/06/24 </h2>
- 
-o meu principal conhecimento é sobre criação de código usando <br>
-o NetBeans e github.</h1>
+        
+    </section>
 
-<h2>meus principais trabalhos feitos usando NetBeans foi esses:</h2>
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>código de um jogo para tentar adivinhar um número misterioso.</p>
+            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=92QZuA </a>
+        </div>
 
-<a href="URL"> https://github.com/Leonel061/game-da-adivinhacao1.git?authuser=0 </a>
-<a href="URL">https://github.com/Leonel061/repositorio-de-exercicios-de-logica-de-programacao-em-java/blob/8b1576b57a47a5e58cadf8e78b8e9d6d9d2f00bf/exerc%C3%ADcios%20de%20logica%20de%20programa%C3%A7%C3%A3o?authuser=0 </a>
- <h1> Acima esta os 2 link de trabalhos feito no NetBeans e Github </h1>
-    
-<h1>contatos:</h1>
-<h1>número: +51 99024342</h1>
-<h1>Gmail: leonel.Henrrique@gmail.com</h1>
+
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <a href="URL">https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=CPveQf  </a>
+            <p>criacao de um jogo</p>
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>entre em contato:</h2>
+        
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
 </body>
-</head>
-
 </html>
 
+
+codigo: style.css:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.projeto {
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}

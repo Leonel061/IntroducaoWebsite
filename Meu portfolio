@@ -21,31 +21,44 @@
     <section id="sobre">
         <h2>Sobre min</h2>
         <p>Meu nome é Leonel e tenho 15 anos, esse é o meu primeiro porfolio. <br> 
-        Atualmente estou no primeiro ano do curso de programacao.</p>
+        Atualmente estou no primeiro ano do curso de programacao. <br>
+        Eu atualmente estou vivendo em Sapucaia do sul RS.
 
 
-        
+       <br> <img src="https://photos.app.goo.gl/hNPAJHYG5Mf6RN5w7" alt="uma foto minha">
+
+    </p>
+
+
+
     </section>
 
     <section id="projetos">
+
+        <h4>logo abaixo estao alguns dos meu projetos <br>
+            feitos no Netbeans e vinculados no github.</h4>
+
         <h2>Meus Projetos</h2>
         <div class="projeto">
             <h3>Projeto 1</h3>
             <p>código de um jogo para tentar adivinhar um número misterioso.</p>
-            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=92QZuA </a>
-        </div>
+            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=92QZuA</a>
+        </div> 
 
 
         <div class="projeto">
             <h3>Projeto 2</h3>
-            <a href="URL">https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=CPveQf  </a>
-            <p>criacao de um jogo</p>
+            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=CPveQf </a>
+            <p>codigos de programacao usando NetBenas IDE 8.2</p>
 
         </div>
     </section>
 
     <section id="contato">
         <h2>entre em contato:</h2>
+        <p>mande seu nome completo <br>
+        seu gmail de contato <br>
+    e por fim o motivo de estar entrando em contato comigo </p>
         
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome"required>
@@ -54,13 +67,16 @@
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
             <button type="submit">Enviar</button>
+
+            <p>a resposta ou duvida sera respondida </p>
+            em até 2 dias uteis em seu mesmo gmail de envio.</h3>
+
         </form>
     </section>
 
 </body>
 </html>
-
-
+    
 codigo: style.css:
 
 body {

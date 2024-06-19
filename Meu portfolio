@@ -15,7 +15,7 @@
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav>
+        
     </header>
 
     <section id="sobre">
@@ -23,9 +23,11 @@
         <p>Meu nome é Leonel e tenho 15 anos, esse é o meu primeiro porfolio. <br> 
         Atualmente estou no primeiro ano do curso de programacao. <br>
         Eu atualmente estou vivendo em Sapucaia do sul RS.
-
+<br>
+<br>
 
        <br> <img src="https://photos.app.goo.gl/f8CUvafFVMjwLQcY8" alt="uma foto minha">
+        
 
     </p>
 
@@ -42,14 +44,17 @@
         <div class="projeto">
             <h3>Projeto 1</h3>
             <p>código de um jogo para tentar adivinhar um número misterioso.</p>
-            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=92QZuA</a>
+            <a href="<https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=7CNJzE>">jogo da adivinhacao</a>
+
         </div> 
 
         <div class="projeto">
             <h3>Projeto 2</h3>
-            <a href="URL"> https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=CPveQf </a>
+           
             <p>codigos de programacao usando NetBenas IDE 8.2</p>
+            <a href="<https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=KeNzLA>">atividades feitas usando codigos java dentro do netbeans</a>
 
+        </nav>
         </div>
     </section>
 
@@ -75,18 +80,22 @@
 
 </body>
 </html>
-    
-codigo: style.css:
 
+
+codigo: style.css:
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    fundo{
+        background-image: url (https://photos.app.goo.gl/f8CUvafFVMjwLQcY8);
+    }
 }
 header {
-    background-color: #333;
-    color: white;
+    background-color: #298b96;
+    color: rgb(253, 253, 253);
     padding: 1rem;
     text-align: center;
 }
@@ -102,7 +111,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 

@@ -11,9 +11,9 @@
         <h1>Meu Portfólio</h1>
         <nav>
             <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         
     </header>
@@ -23,14 +23,13 @@
         <p>Meu nome é Leonel e tenho 15 anos, esse é o meu primeiro porfolio. <br> 
         Atualmente estou no primeiro ano do curso de programacao. <br>
         Eu atualmente estou vivendo em Sapucaia do sul RS.
-<br>
-<br>
-
-       <br> <img src="https://photos.app.goo.gl/f8CUvafFVMjwLQcY8" alt="uma foto minha">
+        <br>
+        <br>
         
-
-    </p>
-
+        <br> <img class="minha" src="img/minha foto.png" alt="uma foto minha">
+        
+        
+        </p>
 
 
     </section>
@@ -44,7 +43,7 @@
         <div class="projeto">
             <h3>Projeto 1</h3>
             <p>código de um jogo para tentar adivinhar um número misterioso.</p>
-            <a href="<https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=7CNJzE>">jogo da adivinhacao</a>
+            <a href="https://1drv.ms/w/c/fe97f060851e22d1/Ea7j3UZchQ1ItdsbK6dY_E4BtR3jWBkTcYC1ww3e98C6ew?e=7CNJzE>">jogo da adivinhacao</a>
 
         </div> 
 
@@ -52,7 +51,7 @@
             <h3>Projeto 2</h3>
            
             <p>codigos de programacao usando NetBenas IDE 8.2</p>
-            <a href="<https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=KeNzLA>">atividades feitas usando codigos java dentro do netbeans</a>
+            <a href="https://1drv.ms/w/c/fe97f060851e22d1/EfpIaxwORBVJr9a902TrvQ8BmZID4dck642OtN4ec7RWEw?e=KeNzLA>">atividades feitas usando codigos java dentro do netbeans</a>
 
         </nav>
         </div>
@@ -80,4 +79,3 @@
 
 </body>
 </html>
-
